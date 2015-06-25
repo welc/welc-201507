@@ -14,14 +14,14 @@
 
 요약•정리는 *아이템* 단위로 저장소에 작성합니다. 여기에서 *아이템*은 1장부터 24장까지는 장(chapter) 단위, 25장은 첫 번째 수준의 절(section) 단위를 말합니다. 아이템별 문서는 `items/` 디렉토리에 위치하고 있습니다.
 
-[위키 페이지](https://github.daumkakao.com/welc/welc-201507/wiki)에 소개된 절차에 따라 작성합니다.
+[위키 페이지](https://github.com/welc/welc-201507/wiki)에 소개된 절차에 따라 작성합니다.
 
 ## 토론
 
-책의 내용과 관련된 토론에는 Github의 [이슈 기능](https://github.daumkakao.com/welc/welc-201507/issues?q=is%3Aopen+is%3Aissue)을 이용합니다.
+책의 내용과 관련된 토론에는 Github의 [이슈 기능](https://github.com/welc/welc-201507/issues)을 이용합니다.
 
 * 토론할 주제별로 이슈를 생성합니다.
-* 장(chapter)별로 준비되어 있는 [레이블](https://github.daumkakao.com/welc/welc-201507/labels)로 어떤 장(chapter)와 관련된 내용인지 표시합니다.
+* 장(chapter)별로 준비되어 있는 [레이블](https://github.com/welc/welc-201507/labels)로 어떤 장(chapter)와 관련된 내용인지 표시합니다.
 
 그 밖의 토론 및 대화에는 WELC Slack(https://welc.slack.com )을 이용합니다.
 
