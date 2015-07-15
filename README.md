@@ -33,3 +33,4 @@
 
 * [1장. 소프트웨어 변경하기](items/chapter01_changing-software.md)
 * [2장. 피드백 받으며 작업하기](items/chapter02_working-with-feedback.md)
+* [3장. 감지하기와 분리하기](items/chapter03_sensing-and-separation.md)
