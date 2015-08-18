@@ -37,3 +37,5 @@
 * [4장. 이음매 모델](items/chapter04_the-seam-model.md)
 * [5장. 도구](items/chapter05_tools.md)
 * [6장. 시간이 없는데 변경은 해야 해요](items/chapter06_i-dont-have-much-time-and-i-have-to-change-it.md)
+* 25장. 의존성 제거 기법
+    * [구현체 추출](items/chapter25_dependency-breaking-techniques/extract-implementer.md)
