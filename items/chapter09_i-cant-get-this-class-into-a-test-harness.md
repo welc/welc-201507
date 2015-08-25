@@ -22,3 +22,20 @@
 
 테스트 코드에 적용하는 기준은 프로덕션 코드에 적용하는 기준과 다르다. 테스트를 가능하게 하는 데 필요하다면, 추상화나 데이터 *encapsulation* 등은 잘 지켜지지 않아도 괜찮다. 하지만 테스트 코드도 깨끗해야(*clean*)한다. 즉, 이해하거나 수정하기 쉬워야 한다.
 
+## 숨겨진 의존성
+
+테스트 *harness* 내에서 접근하지 못하는 리소스를 생성자에서 이용하는 경우.
+
+사용할 수 있는 기법
+
+* *Parameterize Constructor*
+    * 숨겨진 의존성을 밖으로 드러나게 만든다.
+    * *Extract Interface* 등의 기법을 이용하여 생성자에 가짜 객체를 넘기는 게 가능해진다.
+    * *Preserve Signature* 기법을 이용하여 테스트 없이 안전하게 변경할 수 있다.
+    * *Wrap Method* 기법을 적용하면 기존 클라이언트 코드에 영향을 주지 않아도 된다.
+* *Extract and Override Getter*
+* *Extract and Override Factory Method*
+* *Supersede Instance Variable*
+
+## The Case of the Construction Blob
+
