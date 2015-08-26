@@ -40,5 +40,23 @@
 * *Extract and Override Factory Method*
 * *Supersede Instance Variable*
 
-## The Case of the Construction Blob
+## 객체를 잔뜩 생성하는 생성자
+
+생성자 내에서 상당히 많은 객체를 생성하여 사용하고, 생성한 객체를 이용하여 또 다른 객체를 생성하는 일을 하고 있을 경우에는 *Parameterize Constructor*를 적용하기 어렵다.
+
+대안들
+
+* 생성자 내부 로직을 바깥으로 꺼낼 경우
+    * 안전하게 변경하기 어렵다.
+    * 클라이언트 코드에 많은 부담을 떠넘기는 형태다.
+* *Extract and Override Factory Method* 기법
+    * C++에서는 불가능하다.
+    * 수퍼클래스가 제대로 초기화 되기 전에 서브클래스에서 오버라이드하는 메써드를 호출하는 것은 다른 언어에서도 위험하다.
+* *Supersede Instance Variable* 기법
+    * C++에서는 명시적으로 기존 필드 값을 제거해줄 필요가 있다. 다른 리소스에 영향을 주지는 않는지 주의를 기울여야 한다.
+    * 프로덕션 코드에서 사용할 경우 심각한 버그를 유발할 수도 있다.
+    * *Extract Interface*나 *Extract Implementer* 기법을 이용하면 가짜 객체를 인자로 넘겨주어 감지(*sensing*)에 활용할 수 있다.
+    * 리소스 관리의 위험성 때문에 불가피한 경우가 아니면 다른 기법을 이용하는 것이 좋다.
+
+## The Case of the Irritating Global Dependency
 
