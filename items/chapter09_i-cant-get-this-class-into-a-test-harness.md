@@ -86,7 +86,7 @@
 만약 어떤 전역 변수가 정말 거의 모든 곳에서 사용되고 있다면, 그것은 코드에 계층 구조가 없기 때문일 것이다. 다음 내용을 참고하라.
 
 * 15장, *My Application Is All API Calls*
-* 17장, *My application Has No Structure*
+* 17장, *My Application Has No Structure*
 
 ## 끔찍한 *Include* 의존성
 
